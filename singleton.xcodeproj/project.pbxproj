@@ -14,6 +14,7 @@
 		810897491D587177007934BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810897481D587177007934BA /* Assets.xcassets */; };
 		8108974C1D587177007934BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8108974A1D587177007934BA /* LaunchScreen.storyboard */; };
 		810897561D5871C6007934BA /* SingletonPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 810897551D5871C6007934BA /* SingletonPattern.m */; };
+		81FCF8341D8B11FA00A808BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 81FCF8331D8B11FA00A808BB /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8108974D1D587177007934BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		810897541D5871A7007934BA /* SingletonPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPattern.h; sourceTree = "<group>"; };
 		810897551D5871C6007934BA /* SingletonPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonPattern.m; sourceTree = "<group>"; };
+		81FCF8331D8B11FA00A808BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		810897301D587177007934BA = {
 			isa = PBXGroup;
 			children = (
+				81FCF8331D8B11FA00A808BB /* LICENSE */,
 				8108973B1D587177007934BA /* singleton */,
 				8108973A1D587177007934BA /* Products */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				8108974C1D587177007934BA /* LaunchScreen.storyboard in Resources */,
 				810897491D587177007934BA /* Assets.xcassets in Resources */,
+				81FCF8341D8B11FA00A808BB /* LICENSE in Resources */,
 				810897471D587177007934BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +320,7 @@
 				810897521D587177007934BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
